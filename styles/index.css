@@ -1,0 +1,67 @@
+@font-face {
+    font-family: pixemon;
+    src: url("../assets/fonts/pixemon_2/Pixemon.otf");
+}
+@font-face {
+    font-family: arcadepix;
+    src: url("../assets/fonts/arcadepix/ARCADEPI.TTF");
+}
+body {
+    background: #e1b1e1;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header, footer, h2 {
+    font-weight: bold;
+}
+header, footer {
+    color: white;
+    font-size: 3vw;
+    font-family: pixemon;
+    text-align: center;
+    text-transform: uppercase;
+}
+header {
+    background: rgb(74, 27, 105);
+    padding: 25px;
+    border-bottom: 5px solid rgb(52, 16, 62);
+}
+h1, h2 {
+    margin-left: 1vw;
+    padding: 10px;
+}
+h1 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: arcadepix;
+}
+img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5vh;
+}
+h2 {
+    font-family: Arial;
+    width: 90vw;
+    opacity: 0;
+
+    transition: all;
+    transition-duration: 1s;
+}
+p {
+    margin-bottom: 7.5vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    font-family: monospace;
+    font-size: 1.1vw;
+    border: 2px solid rgb(187, 148, 212);
+    height: 11vh;
+    padding: 10px;
+    width: 90vw;
+    background: #f1c1f1;
+
+    transition: all;
+    transition-duration: 1s;
+}
